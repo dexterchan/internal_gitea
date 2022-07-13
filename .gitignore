@@ -1,1 +1,4 @@
 gitea
+*.crt
+*.key
+easy-rsa

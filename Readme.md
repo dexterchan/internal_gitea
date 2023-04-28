@@ -50,12 +50,21 @@ Then, register ./cert/ca.crt to your local trusted CA bundle.
 
 2) Bring up the service
 ```
+Ubuntu:
 docker-compose up -d
+
+AWS Linux:
+docker compose up -d
 ```
 3) Access the service
 Open a browser, access https://gitea.internal.bcorp.com
 
 3) Shutdown the service
 ```
+Ubuntu:
 docker-compose down
+
+AWS Linux:
+docker compose down
+
 ```

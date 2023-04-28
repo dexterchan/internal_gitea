@@ -28,6 +28,7 @@ echo \
 
 sudo apt-get update -y
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt install -y docker-compose
 sudo usermod -a -G ssm-user
 ```
 

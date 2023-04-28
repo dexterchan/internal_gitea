@@ -12,6 +12,7 @@ This design can be reused in any other HTTP application for POC/unit testing.
 Install docker, docker-compose in a Ubuntu box  
 Reference : https://docs.docker.com/engine/install/ubuntu/  
 For other platforms, please check official docker page.
+
 ```
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update -y
@@ -29,8 +30,9 @@ echo \
 sudo apt-get update -y
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo apt install -y docker-compose
-sudo usermod -a -G ssm-user
+sudo usermod -a -G docker ssm-user
 ```
+For AWS Linux setup, please refer to [aws-linux-setup.sh](aws-linux-setup.sh)
 
 
 ## Steps:

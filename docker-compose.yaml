@@ -22,7 +22,7 @@ services:
       - 3000
     ports:
       - "3000:3000"
-      - "222:225"
+      - "222:22"
   jumper:
     image: ubuntu:latest
     command: sleep infinity

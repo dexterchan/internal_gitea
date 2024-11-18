@@ -2,3 +2,4 @@ gitea
 *.crt
 *.key
 easy-rsa
+gitea_data/
